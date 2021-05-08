@@ -22,15 +22,12 @@
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username which you sent to @BotFather (Without [@])"
-            "required": false
         },
         "OWNER_ID": {
             "description": "Bot Owner UserID"
-            "required": false
         },
         "DATABASE_URL": {
             "description": "MongoDB Database URI for Saving UserID for Broadcast."
-            "required": false
         },
         "UPDATES_CHANNEL": {
             "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
@@ -38,7 +35,6 @@
         },
         "LOG_CHANNEL": {
             "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
-            "required": false
         },
         "PRESET": {
             "description": "Video Encoding Preset Type. Better put ultrafast or superfast or veryfast (Optional)",
