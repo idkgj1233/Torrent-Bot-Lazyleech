@@ -1,0 +1,38 @@
+{
+    "name": "SC-Telegram Video Watermark Adder Bot",
+    "description": "A Telegram Video Watermark Adder Bot in Pyrogram",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+    "repository": "https://github.com/idkgj1233/SC-Watermark-Adder",
+    "website": "https://telegram.dog/saviour_coder",
+    "success_url": "https://t.me/UC_bot_channel",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather XD
+        }
+    },
+    "buildpacks": [ 
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, 
+  { 
+    "url": "heroku/python"
+  }
+],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
