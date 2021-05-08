@@ -1,13 +1,13 @@
 {
-    "name": "SC-Telegram Video Watermark Adder Bot",
-    "description": "A Telegram Video Watermark Adder Bot in Pyrogram",
+    "name": "SC-Torrent Bot",
+    "description": "A Telegram Torrent Leecher Bot in Pyrogram",
     "keywords": [
         "telegram",
         "files",
-        "store",
+        "Torrent",
         "bot"
     ],
-    "repository": "https://github.com/idkgj1233/SC-Watermark-Adder",
+    "repository": "https://github.com/idkgj1233/Torrent-Bot-Lazyleech",
     "website": "https://telegram.dog/saviour_coder",
     "success_url": "https://t.me/UC_bot_channel",
     "env": {
@@ -19,27 +19,6 @@
         },
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
-        },
-        "BOT_USERNAME": {
-            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
-        },
-        "OWNER_ID": {
-            "description": "Bot Owner UserID"
-        },
-        "DATABASE_URL": {
-            "description": "MongoDB Database URI for Saving UserID for Broadcast."
-        },
-        "UPDATES_CHANNEL": {
-            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
-            "required": false
-        },
-        "LOG_CHANNEL": {
-            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
-        },
-        "PRESET": {
-            "description": "Video Encoding Preset Type. Better put ultrafast or superfast or veryfast (Optional)",
-            "required": false,
-            "value": "ultrafast"
         }
     },
     "buildpacks": [ 
